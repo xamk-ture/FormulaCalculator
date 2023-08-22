@@ -37,8 +37,14 @@ namespace FormulaCalculator
         public static decimal CalculateFormula(string formula)
         {
             //Assignment: Return the result of calculating the formula passed in.  The formula will be in the format of 1 + 2 or 1 - 2 etc (only two numbers!).  You need to parse the formula and call the appropriate method.
-            //Also throw correct exception in different situations (e.g. divide by zero)
+
+            //If you get CalculateFormula_ValidFormulas_ReturnsExpectedResult test to pass you will get 50% on this assignment.
+            //If you get CalculateFormula_InvalidFormulas_ThrowsException also to pass you will get 100% on this assignment.
+            //Also if you get 50% of both test methods test to pass you get 50% on this assignment.
+            
+            //For CalculateFormula_InvalidFormulas_ThrowsException to get to pass you need throw correct exception in different situations (e.g. divide by zero)
             //Look CalculateFormula_InvalidFormulas_ThrowsException test cases for examples in what cases an exception is expected
+
             throw new NotImplementedException();
         }
     }
